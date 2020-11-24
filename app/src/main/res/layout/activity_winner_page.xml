@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WinnerPageActivity"
+    android:background="@drawable/background_winner">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/winner_page_img_winner_pad"
+        android:id="@+id/winner_page_img_winner"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_bob_minion"
+        />
+
+    <TextView
+        android:id="@+id/winner_page_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="0 points"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_toRightOf="@+id/winner_page_img_winner"
+        android:layout_marginLeft="80dp"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/winner_page_btn_new_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:layout_toLeftOf="@id/winner_page_img_winner"
+        android:layout_marginRight="80dp"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/winner_page_img_winner_pad"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/winner_page_winning_pad"
+        />
+
+</RelativeLayout>
