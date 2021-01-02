@@ -3,6 +3,7 @@ package com.example.cardwars;
 public class Player {
     private Card currentCard;
     private int points;
+
     public Player() {
         setCurrentCard(null);
         setPoints(0);

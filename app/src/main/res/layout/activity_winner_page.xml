@@ -8,6 +8,7 @@
     tools:context=".WinnerPageActivity"
     android:background="@drawable/background_winner">
 
+
     <ImageView
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/winner_page_img_winner_pad"
@@ -22,19 +23,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:text="0 points"
+        android:text="10 points"
         android:textStyle="bold"
-        android:textSize="50sp"
+        android:textSize="45sp"
         android:layout_toRightOf="@+id/winner_page_img_winner"
         android:layout_marginLeft="80dp"
+        android:gravity="center"
+
         android:layout_centerVertical="true"
         />
 
     <Button
-        android:id="@+id/winner_page_btn_new_game"
+        android:id="@+id/winner_page_btn_main_Menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Game"
+        android:text="Main Menu"
         android:layout_toLeftOf="@id/winner_page_img_winner"
         android:layout_marginRight="80dp"
         android:layout_centerVertical="true"
