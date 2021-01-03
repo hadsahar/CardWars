@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+        tools:context=".HighScoresActivity"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:gravity="bottom"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#D4AF37"
+                android:textSize="30sp"
+                android:text="HighScores"
+                android:layout_weight="1"
+                android:id="@+id/txt_Title"/>
+
+
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="7">
+
+                <FrameLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:id="@+id/highScores_LAY_map"
+                    android:background="#123456"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp">
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/highScores_LAY_list"
+                    android:background="#654321"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="20dp">
+                </FrameLayout>
+
+            </LinearLayout>
+
+                <Button
+                    android:layout_height="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="back to main menu"
+                    android:layout_weight="1"
+                    android:id="@+id/highscores_btn_back"/>
+
+        </LinearLayout>

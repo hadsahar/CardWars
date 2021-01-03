@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_card_menu"
+    tools:context=".MainMenuActivity">
+
+    <TextView
+        android:id="@+id/txt_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Card Wars"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_New_Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_Title"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+
+        android:text="New Game" />
+
+    <Button
+        android:id="@+id/btn_HighScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_New_Game"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+
+        android:text="Highscores" />
+</RelativeLayout>
